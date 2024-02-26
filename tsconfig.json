@@ -1,0 +1,21 @@
+{
+    
+    "compilerOptions": {
+        "declaration": true,
+        "declarationDir": "build",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "target": "es2017",
+        "module": "es2015",
+        "outDir": "build",
+        "sourceMap": false,
+        "rootDir": "./src/",
+        "strictNullChecks": true,
+        "strict": true,
+        "baseUrl": "./src/",
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "build", "test"]
+
+}
